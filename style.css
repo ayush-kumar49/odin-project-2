@@ -1,21 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-    max-width: 1200px;
-    margin-left: 300px;
-    margin-right: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
 
+.dark-content{
+        background-color: #1F2937;
+}
 
 .header {
     display: flex;
-    background-color: #1F2937;
+    justify-content: space-between;
     color: white;
 
 }
 
 #header-logo {
     flex: 1;
-    /* border: 2px solid red; */
     align-items: flex-start;
     font-size: 24px;
     font-family: F9FAF8;
@@ -25,11 +26,40 @@ body{
 
 .header-pages{
     flex: 1;
-    /* border: 2px solid red; */
     display: flex;
 }
 
 .header-link{
-    /* border: 2px solid blue; */
     flex: 1;
 }
+
+
+.hero-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    /* flex: 1; */
+}
+
+.hero-main-text .heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-main-text .discription {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main-image{
+    /* flex: 1; */
+    flex-basis: 50%;
+}
+
