@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+
+}
+
+#header-logo {
+    flex: 1;
+    /* border: 2px solid red; */
+    align-items: flex-start;
+    font-size: 24px;
+    font-family: F9FAF8;
+
+}
+
+
+.header-pages{
+    flex: 1;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.header-link{
+    /* border: 2px solid blue; */
+    flex: 1;
+}
