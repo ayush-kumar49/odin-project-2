@@ -71,6 +71,7 @@ body{
 
 /* Information Section CSS */
 
+                /* Heading */
 #randomInfo{
     font-size: 36px;
     font-weight: 900;
@@ -79,11 +80,17 @@ body{
 }
 
 
+            /* Info section flex box*/
+
+#infoSectionBlocks{
+    padding: 100px;
+    padding-left: 150px ;
+    padding-right: 150px;
+}
 
 .infoBlocks{
     display: flex;
     justify-content: space-between;
-    /* gap: 5px; */
 }
 
 
@@ -94,6 +101,8 @@ body{
 
 }
 
+            /* Info section design */
+
 .blueBlock{
     border: 2px solid blue;
     height: 100px;
@@ -102,6 +111,26 @@ body{
 
 .subtextBlock{
     font-size: 15px;
+    width: 190px;
+    text-align: center;
 }
 
 
+
+        /* Quote Section */
+
+#quoteSection{
+    padding: 150px;
+    height: 150px;
+    text-align: justify;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+#quoteCredit{
+    font-weight: bolder;
+    text-align: right;
+    font-size: 20px;
+}
