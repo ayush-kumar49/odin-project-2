@@ -8,9 +8,11 @@ body{
     /* Dark Hero Part CSS */
 
 
-.dark-content{
+.darkContent{
         background-color: #1F2937;
         height: 550px;
+        padding-left: 150px;
+        padding-right: 150px;
 }
 
 .header {
@@ -133,4 +135,53 @@ body{
     font-weight: bolder;
     text-align: right;
     font-size: 20px;
+}
+
+
+
+        /* Call to Action Section */
+
+#callToAction{
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#callToActionBlue{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100px;
+}
+
+#callToActionText,#callButtonCont{
+    flex: initial;
+}
+
+#callToActionText{
+    width: 700px;
+}
+
+#callButton{
+    margin: 50px;
+    margin-left: 100px;
+    border: #E5E7EB 2px solid;
+    background-color: #3882F6;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #E5E7EB;
+}
+
+#callMainText {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #E5E7EB;
+    margin-bottom: 0px;
+}
+
+#callSubText{
+    font-size: 15px;
+    margin-top: 0px;
 }
