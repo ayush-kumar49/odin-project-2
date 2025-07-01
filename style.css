@@ -11,8 +11,8 @@ body{
 .darkContent{
         background-color: #1F2937;
         height: 550px;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 200px;
+        padding-right: 200px;
 }
 
 .header {
@@ -44,36 +44,46 @@ body{
 .hero-main{
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    /* align-items: end; */
 }
 
 .hero-main-text{
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
-    /* flex: 1; */
+    flex: initial;
+    width: 400px;
 }
 
 .hero-main-text .heading {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+        margin-bottom: 0px;
 }
 
 .hero-main-text .discription {
-    flex: 1;
+    /* flex: 1; */
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .hero-main-image{
-    /* flex: 1; */
-    flex-basis: 50%;
+    padding-top: 25px;
+}
+
+.heroButton{
+    margin: 0px;
+    margin-right: 300px;
+    border: #E5E7EB 2px solid;
+    background-color: #3882F6;
+    padding-left: 16x;
+    padding-right: 16px;
+    color: #E5E7EB;
+    border-radius: 5px;
 }
 
 /* Information Section CSS */
 
-                /* Heading */
 #randomInfo{
     font-size: 36px;
     font-weight: 900;
@@ -86,13 +96,14 @@ body{
 
 #infoSectionBlocks{
     padding: 100px;
-    padding-left: 150px ;
-    padding-right: 150px;
+    padding-left: 200px ;
+    padding-right: 200px;
 }
 
 .infoBlocks{
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
+    justify-content: center;
 }
 
 
@@ -106,14 +117,15 @@ body{
             /* Info section design */
 
 .blueBlock{
-    border: 2px solid blue;
-    height: 100px;
-    width: 100px;
+    border: 2px solid #3882F6;
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
 }
 
 .subtextBlock{
     font-size: 15px;
-    width: 190px;
+    width: 150px;
     text-align: center;
 }
 
@@ -122,8 +134,9 @@ body{
         /* Quote Section */
 
 #quoteSection{
-    padding: 150px;
-    height: 150px;
+    padding: 210px;
+    padding-top: 150px;
+    height: 180px;
     text-align: justify;
     background-color: #E5E7EB;
     font-size: 36px;
@@ -143,11 +156,12 @@ body{
 
 #callToAction{
     padding: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 #callToActionBlue{
     display: flex;
+    border-radius: 6px;
     align-items: center;
     background-color: #3882F6;
     color: #E5E7EB;
@@ -164,7 +178,7 @@ body{
     width: 700px;
 }
 
-#callButton{
+.signUpButton{
     margin: 50px;
     margin-left: 100px;
     border: #E5E7EB 2px solid;
@@ -172,6 +186,7 @@ body{
     padding-left: 16px;
     padding-right: 16px;
     color: #E5E7EB;
+    border-radius: 5px;
 }
 
 #callMainText {
@@ -184,4 +199,16 @@ body{
 #callSubText{
     font-size: 15px;
     margin-top: 0px;
+}
+
+
+        /* Footer Section */
+
+#footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
 }
